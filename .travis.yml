@@ -26,6 +26,6 @@ script:
 # deploying with surge.
 deploy:
   provider: surge
-  project: ./_build/
+  project: ./public
   domain: franhv.surge.sh
   skip_cleanup: true
