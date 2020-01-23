@@ -20,7 +20,7 @@ install:
 
 # script - run the build script
 script:
-    - hugo --theme=hugo-coder-portfolio
+    - hugo --theme=learn
     - echo "$CNAME_URL" > public/CNAME
 
 # deploying with surge.
